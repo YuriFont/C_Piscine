@@ -6,7 +6,7 @@
 /*   By: yufonten <yufonten@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/01 09:58:41 by yufonten          #+#    #+#             */
-/*   Updated: 2023/09/01 10:03:53 by yufonten         ###   ########.fr       */
+/*   Updated: 2023/09/01 10:27:12 by yufonten         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,19 +36,11 @@ void	ft_print_comb(void)
 				ft_putchar(n2);
 				ft_putchar(n3);
 				if (n != '7')
-				{
-					ft_putchar(',');
-					ft_putchar(' ');
-				}
+					write(1, ", ", 2);
 				n3++;
 			}
 			n2++;
 		}
 		n++;
 	}
-}
-
-int main(void)
-{
-	ft_print_comb();
 }
