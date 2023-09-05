@@ -6,7 +6,7 @@
 /*   By: yufonten <yufonten@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/31 06:31:52 by yufonten          #+#    #+#             */
-/*   Updated: 2023/08/31 06:34:38 by yufonten         ###   ########.fr       */
+/*   Updated: 2023/09/05 19:52:45 by yufonten         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_print_reverse_alphabet(void)
 	c = 'z';
 	while (c >= 'a')
 	{
-		ft_putchar(c)
+		ft_putchar(c);
 		c--;
 	}
 }
