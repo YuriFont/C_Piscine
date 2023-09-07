@@ -6,16 +6,9 @@
 /*   By: yufonten <yufonten@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 08:30:48 by yufonten          #+#    #+#             */
-/*   Updated: 2023/09/07 02:53:01 by yufonten         ###   ########.fr       */
+/*   Updated: 2023/09/07 03:06:06 by yufonten         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
-
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
 
 int	ft_atoi(char *str)
 {
