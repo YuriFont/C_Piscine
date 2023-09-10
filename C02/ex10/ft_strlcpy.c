@@ -6,7 +6,7 @@
 /*   By: yufonten <yufonten@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 00:22:53 by yufonten          #+#    #+#             */
-/*   Updated: 2023/09/06 00:35:03 by yufonten         ###   ########.fr       */
+/*   Updated: 2023/09/10 14:35:44 by yufonten         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,6 @@ int	ft_strlen(char *str)
 unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 {
 	unsigned int	i;
-	unsigned int	s;
 
 	i = 0;
 	if (size > 0)
@@ -35,6 +34,5 @@ unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 		}
 		dest[i] = '\0';
 	}
-	s = ft_strlen(dest);
-	return (s);
+	return (ft_strlen(dest));
 }
