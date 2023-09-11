@@ -6,7 +6,7 @@
 /*   By: yufonten <yufonten@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/10 19:51:00 by yufonten          #+#    #+#             */
-/*   Updated: 2023/09/11 14:10:17 by yufonten         ###   ########.fr       */
+/*   Updated: 2023/09/11 14:18:08 by yufonten         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,8 +85,7 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 	ft_strcpy(dest, strs[0]);
 	while (i < size)
 	{
-		if (i < size)
-			ft_strcat(dest, sep);
+		ft_strcat(dest, sep);
 		ft_strcat(dest, strs[i]);
 		i++;
 	}
